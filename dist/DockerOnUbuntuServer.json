@@ -216,7 +216,7 @@
         "type": "CustomScriptForLinux",
         "typeHandlerVersion": "1.3",
         "settings": {
-          "fileUris": ["https://raw.githubusercontent.com/s-innovations/azurefile-dockervolumedriver/master/install-and-run-azurevolumedriver.sh"],
+          "fileUris": ["https://raw.githubusercontent.com/s-innovations/azurefile-dockervolumedriver/master/dist/install-and-run-azurevolumedriver.sh"],
           "commandToExecute": "[concat('sh ./install-and-run-azurevolumedriver.sh',' ', variables('vhdStorageName'),' ', listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('vhdStorageName')), '2015-05-01-preview').key1)]",
           "timestamp": 123456789
         }
