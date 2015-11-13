@@ -5,6 +5,6 @@
 echo "Setting up Volume Driver"
 
 git clone https://github.com/s-innovations/azurefile-dockervolumedriver.git
-./azurefile-dockervolumedriver/azurefile-dockervolumedriver --account-name $1 --account-key $2 &
+sudo ./azurefile-dockervolumedriver/azurefile-dockervolumedriver --account-name $1 --account-key $2 &
 
 exit 0
