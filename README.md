@@ -1,5 +1,9 @@
 # Docker Volume Driver for Azure File Service
 
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fs-innovations%2Fazurefile-dockervolumedriver%2Fmaster%2FDockerOnUbuntuServer.json" target="_blank">
+    <img src="http://azuredeploy.net/deploybutton.png"/>
+</a>
+
 This is a Docker Volume Driver which uses [Azure Storage File Service][afs]
 to mount file shares on the cloud to Docker containers as volumes. It uses network
 file sharing ([SMB/CIFS protocols][smb]) capabilities of Azure File Service.
