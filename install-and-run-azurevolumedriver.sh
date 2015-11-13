@@ -3,7 +3,9 @@
 # sh scriptname name key
 
 echo "Setting up Volume Driver"
-
+echo "Connection Info"
+echo $1
+echo $2
 git clone https://github.com/s-innovations/azurefile-dockervolumedriver.git
 sudo ./azurefile-dockervolumedriver/azurefile-dockervolumedriver --account-name $1 --account-key $2 &
 
